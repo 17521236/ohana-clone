@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #F6F5F2 !important;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.mw-100 {
+    max-width: 100%;
+}
+
+.cl-pink {
+    color: #F7346F;
+}
+
+.banner {
+    height: 500px;
+    background-image: url('https://www.ohanaliving.vn/542ac03681516bcca0dd605bedd41a2b.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.header-top {
+    background-color: #F7346F;
+}
+
+.banner__content {
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    /* width: 1440px; */
+}
+
+.f-32 {
+    font-size: 32px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.color-secondary {
+    color: #666666;
+}
+
+.banner__search {
+    background: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 30px 50px 50px 30px;
+    font-size: 1.2rem;
+    position: relative;
+    width: 654px;
+}
+
+.banner__search input {
+    width: 100%;
+    border: none;
+    padding-left: 1rem;
+}
+
+.banner__search input:focus {
+    border: none !important;
+    outline: none;
+}
+
+.btn-search {
+    position: absolute;
+    background-color: #4877F8;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin-right: 6px;
+    top: 7px;
+    right: -1px;
+}
+
+.dropdown {
+    font-size: 1rem;
+    background-color: white;
+    top: 100%;
+    margin-top: 0.5rem;
+    left: 0;
+    border-radius: 20px;
+    display: none;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.dropdown li {
+    padding: 0.7rem 2rem;
+}
+
+.dropdown ul:first {
+    border-bottom: 1px #666666 solid;
+}
+
+.q-hcm {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 128px;
+    width: 176px;
+    position: relative;
+    border-radius: 12px;
+    max-width: 100%;
+}
+
+.overlay {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 12px;
+}
+
+.rooms {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    background-color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+.room-image {
+    position: relative;
+    width: 216px;
+    height: 152px;
+    margin-right: 16px;
+}
+
+.border-8 {
+    border-radius: 8px;
+}
+
+.btn-all {
+    border: 1px #4877F8 solid !important;
+    border-radius: 50px !important;
+    color: blue !important;
+    padding: 0.2rem 0.5rem !important;
+}
+
+a {
+    text-decoration: none !important;
+}
