@@ -1,0 +1,48 @@
+.header {
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05), 0 0 0 transparent;
+    background-color: white;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.nav-right {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    border-radius: 99px;
+}
+
+.nav-right>input {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.l-wrapper {
+    max-width: 1200px;
+}
+
+.blog-content {
+    padding: 60px 0 40px 0;
+}
+
+.new {
+    border: 10px;
+}
+
+.new-bigger {
+    height: 420px;
+    background-color: aqua;
+}
+
+.new .new__img {
+    height: 220px;
+}
+
+.new .new__content {
+    height: 200;
+}

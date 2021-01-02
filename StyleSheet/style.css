@@ -44,6 +44,10 @@ ul {
     /* width: 1440px; */
 }
 
+.f-18 {
+    font-size: 18px;
+}
+
 .f-32 {
     font-size: 32px;
 }
@@ -52,12 +56,24 @@ ul {
     font-size: 24px;
 }
 
+.f-22 {
+    font-size: 22px;
+}
+
+.f-52 {
+    font-size: 52px;
+}
+
 .f-20 {
     font-size: 20px;
 }
 
 .color-secondary {
     color: #666666;
+}
+
+.mw-700px {
+    max-width: 700px;
 }
 
 .banner__search {
@@ -69,6 +85,10 @@ ul {
     font-size: 1.2rem;
     position: relative;
     width: 654px;
+}
+
+.mr-35 {
+    margin-right: 35px;
 }
 
 .banner__search input {
@@ -145,14 +165,6 @@ ul {
 }
 
 .rooms {
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-left: 32px;
-    margin-right: 32px;
-    background-color: #FFFFFF;
-    padding-top: 32px;
-    padding-bottom: 24px;
-    border-radius: 20px;
     margin-top: 32px;
 }
 
@@ -176,4 +188,21 @@ ul {
 
 a {
     text-decoration: none !important;
+}
+
+.content {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-position {
+    width: 216px !important;
+    height: 152px !important;
+}
+
+.rooms__left {
+    border-radius: 20px;
+    background-color: white;
+    padding: 2rem;
 }
